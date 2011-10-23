@@ -18,14 +18,13 @@ GEM
     rcov (0.9.9)
     rr (1.0.3)
     webmock (1.6.4)
-      addressable (> 2.2.5, ~> 2.2)
+      addressable (~> 2.2, > 2.2.5)
       crack (>= 0.1.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0.0)
   em-http-request
   eventmachine
   jeweler (~> 1.6.4)
